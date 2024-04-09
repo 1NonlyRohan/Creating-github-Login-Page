@@ -166,3 +166,26 @@ form a p:hover{
     color: #2f81f7;
     text-decoration: underline;
 }
+
+.foot{
+    position: relative;
+}
+
+.foot ul {
+    margin: 40px 0 20px 350px;
+}
+
+.foot li{
+    display: inline;
+    padding: 0 0 0 20px;
+}
+
+.foot li a{
+    color: grey;
+    font-size: 12px;
+}
+
+.foot li a:hover{
+    text-decoration: underline;
+    color: #2f81f7;
+}
