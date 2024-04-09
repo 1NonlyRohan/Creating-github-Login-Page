@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #0d1117;
+}
+
+.git-link {
+    position: relative;
+    margin: 50px 0px 0px 650px;
+}
+
+.git-link .fa-xl {
+    font-size: 3.0em;
+}
+.git-link a .fa-xl {
+    color: white;
+}
+
+.git p {
+    color: white;
+    letter-spacing: 0.5px;
+    font-size: 25px;
+    position: absolute;
+    margin: 30px 0px 0px 590px;
+    font-family: math;
+}
+
+.git-form {
+    height: 250px;
+    width: 350px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    position: relative;
+    margin: 80px 0px 0px 510px;
+    background-color: #161b22;
+}
+
+#label-1 {
+    position: absolute;
+    padding: 20px 0px 0px 20px;
+    font-size: 15px;
+    color: white;
+    display: block;
+}
+
+#user-name {
+    padding: 6px;
+    margin: 50px 0 0 20px;
+    background-color: #0d1117;
+    border: 1px solid grey;
+    border-radius: 6px;
+    width: 300px;
+    color: white;
+}
+
+#user-name:focus{
+    border: 2px solid #2f81f7;
+    outline: 0;
+}
+
+#label-2 {
+    position: absolute;
+    padding: 20px 0 0 20px;
+    font-size: 15px;
+    color: white;
+    display: block;
+}
+
+#pass-word {
+    padding: 6px;
+    margin: 50px 0 0 20px;
+    background-color: #0d1117;
+    border: 1px solid grey;
+    border-radius: 6px;
+    width: 300px;
+    color: white;
+}
+
+#pass-word:focus{
+    border: 2px solid #2f81f7;
+    outline: 0;
+}
+
+form a p {
+    font-size: 14px;
+    position: absolute;
+    margin: 25px 0px 0px 200px;
+}
+
+form a p{
+    color: rgba(66, 66, 240, 0.66);
+    font-family: sans-serif;
+}
+
+form a p:hover{
+    text-decoration: underline;
+    color: rgb(66, 66, 240);
+}
+
+
+.btn-1 {
+    width: 300px;
+    margin: 20px 0px 0px 20px;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #238636;
+    border: 0;
+}
+
+.btn-1:hover{
+    background-color: #238637d5;
+}
+
+.btn-1 a{
+    color: white;
+    font-weight: 600;
+}
+
+.git-form-2 {
+    height: 100px;
+    width: 350px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    position: relative;
+    margin: 20px 0px 0px 510px;
+}
